@@ -12,11 +12,12 @@ public class ElementoRedeComposto implements ElementoRede{
     private List<ElementoRede> elementoRedes = new LinkedList<>();
 
     public ElementoRedeComposto(String nome, String ip) {
-        this.ip = nome;
-        this.nome = ip;
+        this.ip = ip;
+        this.nome = nome;
     }
 
     public ElementoRedeComposto(String nome) {
+
         this.nome = nome;
     }
 
